@@ -1,0 +1,170 @@
+@media(max-width:768px)
+
+    {
+        .hamburger{
+            display: block;
+        }
+        .hamburger.active .bar:nth-child(2){
+            opacity: 0;
+        }
+        
+        .hamburger.active .bar:nth-child(1){
+            transform: translateY(8px) rotate(45deg);
+            
+        }
+        .hamburger.active .bar:nth-child(3){
+            transform: translateY(-8px) rotate(-45deg);
+            
+        }
+        .nav-menu{
+            position: fixed;
+            left: -170%;
+            top: 70px;
+            gap: 0;
+            flex-direction: column;
+            background-color: #262626;
+            width: 768px;
+            text-align: center;
+            transition: 0.3s;
+    
+        }
+        .nav-items{
+            margin:16px 0;
+        }
+        .nav-menu.active{
+            left: 0;
+        }
+    }
+
+
+
+@media(max-width:425px){
+
+#image{
+    margin-top: 28px;
+}
+.home-text{
+    width: 100%;
+    text-align: center;
+}
+.text{
+    font-size: 18px;
+    margin-left: 74px;
+    width: 67%;
+}
+.para{
+    margin-left:40px;
+    text-align: left;
+}
+.home{
+    height: 55vh;
+}
+.about{
+    flex-direction: column;
+}
+.about1{
+    width: 90%;
+    padding-right: 0px;
+    padding-left: 15px;
+}
+.btn{
+    margin-left: 100px;
+}
+.about2{
+    width: 100%;
+}
+.about2 h2{
+    font-size: 35px;
+    margin-top: 30px;
+    text-align: center;
+   
+}
+.project-heading{
+    padding-top: 127px;
+    width: 100%;
+}
+.project1{
+    flex-direction: column;
+}
+.projectcontent{
+    width: 90%;
+    
+    padding-left: 20px;
+    margin-top:30px ;
+    margin-bottom: 15px;
+    padding-right: 0px;
+
+
+}
+.projectpic{
+    width: 100%;
+    margin-left: 30px;
+}
+#keeper{
+    width: 95%;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+#simongame{
+    width: 95%;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+#traveltracker{
+    width: 95%;
+    margin-top: 60px;
+    margin-left: -15px;
+}
+.project2{
+    flex-direction: column;
+    margin-top: 120px;
+}
+.project3{
+    flex-direction: column;
+    margin-top: 190px;
+}
+.contactform{
+    margin-top: 630px;
+    height: 75vh;
+}
+.form{
+    margin-left: 1px;
+    margin-right: 10px;
+}
+#contactbutton{
+    margin-left: 190px;
+    width: 22%;
+
+}
+.footercontainer{
+    flex-direction: column;
+}
+.footerbox1{
+    width: 100%;
+    padding-left: 10px;
+}
+.footerbox2{
+    width: 100%;
+    margin-top:1px ;
+    padding-left: 10px;
+}
+.footerbox3{
+    width: 100%;
+    margin-top: 82px;
+    padding-left: 12px;
+}
+.nav-menu{
+    width:95.5%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
